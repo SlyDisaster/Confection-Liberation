@@ -13,6 +13,6 @@ public class PlayerCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //now it's not because i typed here
     }
 }
