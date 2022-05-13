@@ -4,13 +4,14 @@ public class MovingZombie : MonoBehaviour
 {
 
     [SerializeField] float distanceToCover;
-    [SerializeField] float speed = Random.Range(1,10);
+    [SerializeField] float speed;
 
     private Vector3 startingPosition;
 
      void Start()
     {
         startingPosition = transform.position;
+        speed = Random.Range(1, 10);
     }
 
     void Update()
