@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 324429664553614133}
   - component: {fileID: 324429664553614130}
   - component: {fileID: 5988261179782582225}
-  - component: {fileID: 5413616930068882146}
   - component: {fileID: 2192277432121112454}
+  - component: {fileID: 6056162557831272312}
   m_Layer: 0
   m_Name: Zombie 2
   m_TagString: Untagged
@@ -119,20 +119,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceToCover: 2
   speed: 4
---- !u!64 &5413616930068882146
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324429664553614131}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!114 &2192277432121112454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,3 +134,16 @@ MonoBehaviour:
   Human: {fileID: 21300000, guid: 54eb26d1ef4e0d843864cfda8686bf9b, type: 3}
   spriteRenderer: {fileID: 324429664553614133}
   scoreBoard: {fileID: 0}
+--- !u!65 &6056162557831272312
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324429664553614131}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2464866, y: 0.38250577, z: 0.2}
+  m_Center: {x: -0.01963161, y: 0.0687471, z: -2.3505062e-11}
