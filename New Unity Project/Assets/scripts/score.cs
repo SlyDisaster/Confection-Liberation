@@ -24,7 +24,7 @@ public class score : MonoBehaviour
         if(gameScore == 100)
         {
             YouWin();
-           
+           //add a coroutine that takes the player to the end screen after 5 seconds
         }
     }
 

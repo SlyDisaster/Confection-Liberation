@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8246425778759662773}
   - component: {fileID: 1944914634734823363}
   - component: {fileID: 12757461057295449}
+  - component: {fileID: -1526530644478498078}
   m_Layer: 0
   m_Name: Red Sour Candy
   m_TagString: Candy
@@ -133,3 +134,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.063247204, y: 0.07020426, z: 0.11134109}
   m_Center: {x: -0.08919215, y: -0.07051897, z: -0.04432945}
+--- !u!114 &-1526530644478498078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815087743984939850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbe8a7a6ef618c244b5e66bd5e401447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
