@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3823399830423764066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.748, y: 0.87, z: -0.883}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 7, y: 7, z: 7}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -132,8 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Human: {fileID: 21300000, guid: 33c1ef50b411cf345ad0a8b14443d66f, type: 3}
-  spriteRenderer: {fileID: 3823399830423763996}
-  scoreBoard: {fileID: 0}
+  humanAni: {fileID: 9100000, guid: a73fc53e9fc0ce2469843e34473012e9, type: 2}
 --- !u!65 &8750677356325203972
 BoxCollider:
   m_ObjectHideFlags: 0
